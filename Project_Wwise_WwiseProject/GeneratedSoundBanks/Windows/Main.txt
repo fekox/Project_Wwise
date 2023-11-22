@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1409529853	Play_Ball			\Default Work Unit\Play_Ball	
+	1950478834	Play_TVstatic			\Default Work Unit\Play_TVstatic	
+	3113263532	Play_PinkRocklet			\Default Work Unit\Play_PinkRocklet	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	343034848	electricity_03	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\electricity_03_4731E7D3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pink_Rocklet\electricity_03		11848600
+	555593387	electricity_02	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\electricity_02_E8411ECE.wem		\Actor-Mixer Hierarchy\Default Work Unit\TV\electricity_02		12407668
+	1073353068	WhooshPuff_01	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\WhooshPuff_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ball\WhooshPuff_01		343796
+

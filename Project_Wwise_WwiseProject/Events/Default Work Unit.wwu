@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{927DC557-CC71-4295-9185-153104BE90E0}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{927DC557-CC71-4295-9185-153104BE90E0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{927DC557-CC71-4295-9185-153104BE90E0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Ball" ID="{638E1268-35C3-45EE-9683-D0BB079D8863}">
+					<ChildrenList>
+						<Action Name="" ID="{0F62A189-2AC0-4BDF-8D0D-232E0B35E1AD}" ShortID="960795309">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WhooshPuff_01" ID="{9DBDADB2-4914-4569-BF49-B6049C07CA3F}" WorkUnitID="{439D9DDD-3145-4B9C-A1EA-045568D7A316}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TVstatic" ID="{CBCE382C-5C4E-4933-A830-244D6F220162}">
+					<ChildrenList>
+						<Action Name="" ID="{7E7B4AF6-7B11-42A6-8E9B-9E2726B837E7}" ShortID="557472040">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="electricity_02" ID="{2612A0B2-C973-4EC5-A6AA-F9A545A31325}" WorkUnitID="{439D9DDD-3145-4B9C-A1EA-045568D7A316}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PinkRocklet" ID="{EA39FFFA-16A2-4CC6-BA22-8309F7ACA050}">
+					<ChildrenList>
+						<Action Name="" ID="{1B4AEBCE-5C0C-475B-8F5B-36CF92F3B954}" ShortID="744468829">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="electricity_03" ID="{C1F3B456-7FE2-40E1-B376-24348AAE3F2B}" WorkUnitID="{439D9DDD-3145-4B9C-A1EA-045568D7A316}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

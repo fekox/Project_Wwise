@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 61ddc4f90839614c88980a675cf93649
     GuidInternal: 
-    m_lastTime: -8585009182689446669
-    List: []
+    m_lastTime: -8585009129108897519
+    List:
+    - name: Main
+      guid: 5bac8def0df155429a731759223b7c7f
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 61ddc4f90839614c88980a675cf93649
+      - ElementName: Main
+        ObjectType: 7
+        guid: 5bac8def0df155429a731759223b7c7f
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,59 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 57c57d9271cc95429185153104be90e0
     GuidInternal: 
-    m_lastTime: -8585009182689815430
-    List: []
+    m_lastTime: -8585009101145047049
+    List:
+    - name: Play_Ball
+      guid: 68128e63c335ee459683d0bb079d8863
+      id: 1409529853
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 57c57d9271cc95429185153104be90e0
+      - ElementName: Play_Ball
+        ObjectType: 3
+        guid: 68128e63c335ee459683d0bb079d8863
+      Path: Events\Default Work Unit\Play_Ball
+      maxAttenuation: 40
+      maxDuration: 1.790271
+      minDuration: 1.790271
+    - name: Play_PinkRocklet
+      guid: faff39eaa216c64cba228309f7aca050
+      id: 3113263532
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 57c57d9271cc95429185153104be90e0
+      - ElementName: Play_PinkRocklet
+        ObjectType: 3
+        guid: faff39eaa216c64cba228309f7aca050
+      Path: Events\Default Work Unit\Play_PinkRocklet
+      maxAttenuation: 20
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TVstatic
+      guid: 2c38cecb4e5c3349a830244d6f220162
+      id: 1950478834
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 57c57d9271cc95429185153104be90e0
+      - ElementName: Play_TVstatic
+        ObjectType: 3
+        guid: 2c38cecb4e5c3349a830244d6f220162
+      Path: Events\Default Work Unit\Play_TVstatic
+      maxAttenuation: 20
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +204,7 @@ MonoBehaviour:
     m_lastTime: -8585009182689885219
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0a000000650000006600000075000000760000007e0000007f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="3893647049">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1409529853" Name="Play_Ball" ObjectPath="\Events\Default Work Unit\Play_Ball" MaxAttenuation="40." DurationType="OneShot" DurationMin="1.790271" DurationMax="1.790271">
+					<IncludedMemoryFiles>
+						<File Id="1073353068" Language="SFX">
+							<ShortName>WhooshPuff_01.wav</ShortName>
+							<Path>SFX\WhooshPuff_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3113263532" Name="Play_PinkRocklet" ObjectPath="\Events\Default Work Unit\Play_PinkRocklet" MaxAttenuation="20." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="343034848" Language="SFX">
+							<ShortName>electricity_03.wav</ShortName>
+							<Path>SFX\electricity_03_4731E7D3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1950478834" Name="Play_TVstatic" ObjectPath="\Events\Default Work Unit\Play_TVstatic" MaxAttenuation="20." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="555593387" Language="SFX">
+							<ShortName>electricity_02.wav</ShortName>
+							<Path>SFX\electricity_02_E8411ECE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
