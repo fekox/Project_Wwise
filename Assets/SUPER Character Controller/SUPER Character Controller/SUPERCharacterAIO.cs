@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using System.Reflection;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -574,6 +575,7 @@ public class SUPERCharacterAIO : MonoBehaviour{
         UpdateAnimationTriggers(controllerPaused);
         #endregion
     }
+
     void FixedUpdate() {
         if(!controllerPaused){
             #region Movement
@@ -1202,12 +1204,14 @@ public class SUPERCharacterAIO : MonoBehaviour{
                     if((enableHeadbob ? headbobCyclePosition : Time.time) > StepCycle && currentGroundInfo.isGettingGroundInfo && !isSliding){
                         //print("Steped");
                         CallFootstepClip();
+                        AkSoundEngine.PostEvent("Play_Steps", gameObject);
                         StepCycle = enableHeadbob ? (headbobCyclePosition+0.5f) : (Time.time+((stepTiming*_2DVelocityMag)*2));
                     }
                 }else{
                     if(Time.time > StepCycle && currentGroundInfo.isGettingGroundInfo && !isSliding){
                         //print("Steped");
                         CallFootstepClip();
+                        AkSoundEngine.PostEvent("Play_Steps", gameObject);
                         StepCycle = (Time.time+((stepTiming*_2DVelocityMag)*2));
                     }
                 }

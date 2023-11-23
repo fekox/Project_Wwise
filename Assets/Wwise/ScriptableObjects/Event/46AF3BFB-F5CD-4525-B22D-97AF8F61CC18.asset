@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d8a66170f4c3247967dd20538814d0, type: 3}
+  m_Name: 46AF3BFB-F5CD-4525-B22D-97AF8F61CC18
+  m_EditorClassIdentifier: 
+  objectName: Play_Ambient
+  id: 1562304622
+  guid: 46AF3BFB-F5CD-4525-B22D-97AF8F61CC18

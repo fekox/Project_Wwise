@@ -36,6 +36,117 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ambient" ID="{46AF3BFB-F5CD-4525-B22D-97AF8F61CC18}">
+					<ChildrenList>
+						<Action Name="" ID="{29F92A3D-6841-44AB-9DD4-7A33F0112262}" ShortID="483323087">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind_mod_soft" ID="{49E84640-6DD5-46A5-8E73-20EC200D2C7A}" WorkUnitID="{439D9DDD-3145-4B9C-A1EA-045568D7A316}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BoxCollisionWithPlayer" ID="{546D1694-366F-4D33-B00C-2E713203B2AC}">
+					<ChildrenList>
+						<Action Name="" ID="{10595806-2D86-492B-A77F-56456FCE2366}" ShortID="223751391">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_02" ID="{0AF78198-E0E7-4FA4-8B23-155759666C9C}" WorkUnitID="{439D9DDD-3145-4B9C-A1EA-045568D7A316}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Steps" ID="{23001A9B-4877-4D19-8BFD-454470F61A61}">
+					<ChildrenList>
+						<Action Name="" ID="{74642E5F-5875-4F34-8E3E-1769BB18446A}" ShortID="892028698">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Steps" ID="{E13984E9-89EA-49EA-8673-A0184C5F1AF3}" WorkUnitID="{439D9DDD-3145-4B9C-A1EA-045568D7A316}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_House" ID="{574E5D7E-614A-4712-AD21-7B5510379858}">
+					<ChildrenList>
+						<Action Name="" ID="{49E0D59D-904C-4545-B716-3DA6BEA19B24}" ShortID="398319238">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HauntedRu_Stem2" ID="{548DB667-D357-480B-AB33-02552DC4DE8B}" WorkUnitID="{439D9DDD-3145-4B9C-A1EA-045568D7A316}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_SFXVolume" ID="{A4AEFB51-0D4F-48EB-A8DF-58A50EDACC6B}">
+					<ChildrenList>
+						<Action Name="" ID="{8859752A-F459-4D2F-8E75-169271395EE4}" ShortID="863705311">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="Pitch" Type="int32" Value="-500"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX" ID="{6107D7FD-877A-4C3F-A43C-67717C394ADC}" WorkUnitID="{5D85160F-EBED-4CEC-8F94-AEC68EA4284E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Reset_SFXVolume" ID="{6EDF2544-7D13-40F6-8656-AA4AD4C6773B}">
+					<ChildrenList>
+						<Action Name="" ID="{55F90606-0DE9-4CFA-8827-6438E7E74E05}" ShortID="792683504">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="18"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX" ID="{6107D7FD-877A-4C3F-A43C-67717C394ADC}" WorkUnitID="{5D85160F-EBED-4CEC-8F94-AEC68EA4284E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_House" ID="{DF90506C-0944-4C33-AB49-8305D1A87DC2}">
+					<ChildrenList>
+						<Action Name="" ID="{F2CE0518-BE0D-4939-85F8-6963270F6F9A}" ShortID="1048819674">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HauntedRu_Stem2" ID="{548DB667-D357-480B-AB33-02552DC4DE8B}" WorkUnitID="{439D9DDD-3145-4B9C-A1EA-045568D7A316}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_music1" ID="{5872E7D3-2F44-460A-B11C-263508909F7F}">
+					<ChildrenList>
+						<Action Name="" ID="{EC70E215-A4B7-42C2-82FB-AC9632AAB41D}" ShortID="261019141">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mx2_stemB" ID="{4CEB5C40-E242-436C-BE94-6A96A0AEB79B}" WorkUnitID="{439D9DDD-3145-4B9C-A1EA-045568D7A316}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_music2" ID="{A4FE43F7-3A34-43FC-9AB0-2BE5E71E5D50}">
+					<ChildrenList>
+						<Action Name="" ID="{FC86F57D-C533-4F72-8875-D26717D94962}" ShortID="110822518">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mx2_stemC" ID="{034FA154-622D-4DD5-A550-BB66F7066BA3}" WorkUnitID="{439D9DDD-3145-4B9C-A1EA-045568D7A316}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

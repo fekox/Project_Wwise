@@ -3,9 +3,23 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{3792139F-1CBC-46CE-AF11-4AF4BF65E747}">
 			<PropertyList>
+				<Property Name="Event Action List\{0697277F-20C0-458F-B0CE-EF61850DE02D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{069DD92C-C1F5-4953-B8F8-10530FDB6CEB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{23001A9B-4877-4D19-8BFD-454470F61A61}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{46AF3BFB-F5CD-4525-B22D-97AF8F61CC18}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{53EC91EF-CD06-4C4A-95EA-5B9FB6475BF8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{546D1694-366F-4D33-B00C-2E713203B2AC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{574E5D7E-614A-4712-AD21-7B5510379858}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5872E7D3-2F44-460A-B11C-263508909F7F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{638E1268-35C3-45EE-9683-D0BB079D8863}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6932979B-21D5-49A0-AC75-0200AD63D650}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6EDF2544-7D13-40F6-8656-AA4AD4C6773B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{95E828D3-EF73-4917-B2EC-0A91AB0E4447}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A4AEFB51-0D4F-48EB-A8DF-58A50EDACC6B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A4FE43F7-3A34-43FC-9AB0-2BE5E71E5D50}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CBCE382C-5C4E-4933-A830-244D6F220162}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DF90506C-0944-4C33-AB49-8305D1A87DC2}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E31D617F-3C42-4BB7-8A48-7D44F5AE6E66}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EA39FFFA-16A2-4CC6-BA22-8309F7ACA050}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EF784AF1-0C3A-4772-A07A-BBD5C291DDE3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -24,6 +38,8 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="uwINXoJjqkGezHt5zi8LQg=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="W6yN7w3xVUKacxdZIjt8fw=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
+				<Property Name="Interactive Music\x64_{0F80693C-5835-4448-AE64-42010D94BE50} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP1VVVVVVrWRAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAhA"/>
+				<Property Name="Interactive Music\x64_{87849535-5D07-408B-B7EC-5C215176E6FC} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP1VVVVVVrWRAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAhA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -31,6 +47,8 @@
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Music Transition List\{38A8BD53-8AC0-48BA-AD82-26B0ECEEB9DB}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{38A8BD53-8AC0-48BA-AD82-26B0ECEEB9DB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="Yd3E+Qg5YUyImApnXPk2SQ=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">

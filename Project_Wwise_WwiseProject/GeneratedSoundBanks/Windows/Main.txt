@@ -1,10 +1,39 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1034978777	Set_SFXVolume			\Default Work Unit\Set_SFXVolume	
 	1409529853	Play_Ball			\Default Work Unit\Play_Ball	
+	1562304622	Play_Ambient			\Default Work Unit\Play_Ambient	
+	1727563234	Play_House			\Default Work Unit\Play_House	
 	1950478834	Play_TVstatic			\Default Work Unit\Play_TVstatic	
+	2600469463	Play_Steps			\Default Work Unit\Play_Steps	
+	3057815664	Reset_SFXVolume			\Default Work Unit\Reset_SFXVolume	
 	3113263532	Play_PinkRocklet			\Default Work Unit\Play_PinkRocklet	
+	3501295252	Stop_House			\Default Work Unit\Stop_House	
+	4237703228	Play_music1			\Default Work Unit\Play_music1	
+	4237703231	Play_music2			\Default Work Unit\Play_music2	
+	4265328412	Play_BoxCollisionWithPlayer			\Default Work Unit\Play_BoxCollisionWithPlayer	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1718617278	Steps			\Default Work Unit\Steps	
+
+Switch	ID	Name	Switch Group			Notes
+	1248843989	Stell	Steps			
+	2449969375	Glass	Steps			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	8257422	paso_metal_03	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\paso_metal_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Walk\Steps\Steal\paso_metal_03		45054
+	80202448	HauntedRu_Stem2	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\HauntedRu_Stem2_87964389.wem		\Actor-Mixer Hierarchy\Default Work Unit\HouseCollisionWithPlayer\HauntedRu_Stem2		2160128
+	94241123	footstep_liquid_01	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\footstep_liquid_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Walk\Steps\Glass\footstep_liquid_01		44426
+	121785961	mx2_stemB	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\mx2_stemB_04C82DBF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\mx2_stemB		1152128
+	323108172	footstep_liquid_03	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\footstep_liquid_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Walk\Steps\Glass\footstep_liquid_03		56522
 	343034848	electricity_03	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\electricity_03_4731E7D3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pink_Rocklet\electricity_03		11848600
+	496450412	footstep_liquid_04	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\footstep_liquid_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Walk\Steps\Glass\footstep_liquid_04		58132
+	533746229	paso_metal_01	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\paso_metal_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Walk\Steps\Steal\paso_metal_01		59894
 	555593387	electricity_02	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\electricity_02_E8411ECE.wem		\Actor-Mixer Hierarchy\Default Work Unit\TV\electricity_02		12407668
+	682949667	mx2_stemC	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\mx2_stemC_177F6BEA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\mx2_stemC		1152128
+	775366156	sound_02	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\sound_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoxCollision\sound_02		91730
+	786430067	paso_metal_02	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\paso_metal_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Walk\Steps\Steal\paso_metal_02		35406
+	809093889	paso_metal_04	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\paso_metal_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Walk\Steps\Steal\paso_metal_04		51110
+	869731766	Wind_mod_soft	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\Wind_mod_soft_B9CCEF55.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Wind_mod_soft		11075392
+	892837540	footstep_liquid_02	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\footstep_liquid_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Walk\Steps\Glass\footstep_liquid_02		62546
 	1073353068	WhooshPuff_01	C:\Users\facus\OneDrive\Escritorio\Sonido\Segundo Parcial\Project_Wwise\Project_Wwise_WwiseProject\.cache\Windows\SFX\WhooshPuff_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ball\WhooshPuff_01		343796
 

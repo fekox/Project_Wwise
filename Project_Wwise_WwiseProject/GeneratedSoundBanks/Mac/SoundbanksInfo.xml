@@ -11,16 +11,24 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3826862100">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3893647049">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1351754218">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1562304622" Name="Play_Ambient" ObjectPath="\Events\Default Work Unit\Play_Ambient" MaxAttenuation="25." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="869731766" Language="SFX">
+							<ShortName>Wind_mod_soft.wav</ShortName>
+							<Path>SFX\Wind_mod_soft_B9CCEF55.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1409529853" Name="Play_Ball" ObjectPath="\Events\Default Work Unit\Play_Ball" MaxAttenuation="40." DurationType="OneShot" DurationMin="1.790271" DurationMax="1.790271">
 					<IncludedMemoryFiles>
 						<File Id="1073353068" Language="SFX">
@@ -29,13 +37,100 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3113263532" Name="Play_PinkRocklet" ObjectPath="\Events\Default Work Unit\Play_PinkRocklet" MaxAttenuation="20." DurationType="Infinite">
+				<Event Id="4265328412" Name="Play_BoxCollisionWithPlayer" ObjectPath="\Events\Default Work Unit\Play_BoxCollisionWithPlayer" DurationType="OneShot" DurationMin="0.715332" DurationMax="1.274577">
+					<IncludedMemoryFiles>
+						<File Id="775366156" Language="SFX">
+							<ShortName>sound_04.wav</ShortName>
+							<Path>SFX\sound_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1727563234" Name="Play_House" ObjectPath="\Events\Default Work Unit\Play_House" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="80202448" Language="SFX">
+							<ShortName>HauntedRu_Stem2.wav</ShortName>
+							<Path>SFX\HauntedRu_Stem2_87964389.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4237703228" Name="Play_music1" ObjectPath="\Events\Default Work Unit\Play_music1" MaxAttenuation="110." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="121785961" Language="SFX">
+							<ShortName>mx2_stemB.wav</ShortName>
+							<Path>SFX\mx2_stemB_04C82DBF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4237703231" Name="Play_music2" ObjectPath="\Events\Default Work Unit\Play_music2" MaxAttenuation="110." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="682949667" Language="SFX">
+							<ShortName>mx2_stemC.wav</ShortName>
+							<Path>SFX\mx2_stemC_177F6BEA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3113263532" Name="Play_PinkRocklet" ObjectPath="\Events\Default Work Unit\Play_PinkRocklet" MaxAttenuation="10." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="343034848" Language="SFX">
 							<ShortName>electricity_03.wav</ShortName>
 							<Path>SFX\electricity_03_4731E7D3.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2600469463" Name="Play_Steps" ObjectPath="\Events\Default Work Unit\Play_Steps" DurationType="OneShot" DurationMin="0.400703" DurationMax="0.678345">
+					<IncludedMemoryFiles>
+						<File Id="8257422" Language="SFX">
+							<ShortName>paso_metal_03.wav</ShortName>
+							<Path>SFX\paso_metal_03_10C4C929.wem</Path>
+						</File>
+						<File Id="94241123" Language="SFX">
+							<ShortName>footstep_liquid_01.wav</ShortName>
+							<Path>SFX\footstep_liquid_01_10C4C929.wem</Path>
+						</File>
+						<File Id="323108172" Language="SFX">
+							<ShortName>footstep_liquid_03.wav</ShortName>
+							<Path>SFX\footstep_liquid_03_10C4C929.wem</Path>
+						</File>
+						<File Id="496450412" Language="SFX">
+							<ShortName>footstep_liquid_04.wav</ShortName>
+							<Path>SFX\footstep_liquid_04_10C4C929.wem</Path>
+						</File>
+						<File Id="533746229" Language="SFX">
+							<ShortName>paso_metal_01.wav</ShortName>
+							<Path>SFX\paso_metal_01_10C4C929.wem</Path>
+						</File>
+						<File Id="786430067" Language="SFX">
+							<ShortName>paso_metal_02.wav</ShortName>
+							<Path>SFX\paso_metal_02_10C4C929.wem</Path>
+						</File>
+						<File Id="809093889" Language="SFX">
+							<ShortName>paso_metal_04.wav</ShortName>
+							<Path>SFX\paso_metal_04_10C4C929.wem</Path>
+						</File>
+						<File Id="892837540" Language="SFX">
+							<ShortName>footstep_liquid_02.wav</ShortName>
+							<Path>SFX\footstep_liquid_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{88428652-AC3C-45E3-96E4-0EBF68627FAB}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8C17452C-6E55-4A63-8941-EB3BD7A3C95C}">
+							<Media>
+								<File Id="94241123"/>
+								<File Id="323108172"/>
+								<File Id="496450412"/>
+								<File Id="892837540"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{88428652-AC3C-45E3-96E4-0EBF68627FAB}">
+							<Media>
+								<File Id="8257422"/>
+								<File Id="533746229"/>
+								<File Id="786430067"/>
+								<File Id="809093889"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="1950478834" Name="Play_TVstatic" ObjectPath="\Events\Default Work Unit\Play_TVstatic" MaxAttenuation="20." DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -45,7 +140,18 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3057815664" Name="Reset_SFXVolume" ObjectPath="\Events\Default Work Unit\Reset_SFXVolume" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1034978777" Name="Set_SFXVolume" ObjectPath="\Events\Default Work Unit\Set_SFXVolume" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3501295252" Name="Stop_House" ObjectPath="\Events\Default Work Unit\Stop_House" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="1718617278" Name="Steps" ObjectPath="\Switches\Default Work Unit\Steps" GUID="{68B32E85-A345-4CE9-8828-F32CB025F1B2}">
+					<Switches>
+						<Switch Id="1248843989" Name="Stell" ObjectPath="\Switches\Default Work Unit\Steps\Stell" GUID="{88428652-AC3C-45E3-96E4-0EBF68627FAB}"/>
+						<Switch Id="2449969375" Name="Glass" ObjectPath="\Switches\Default Work Unit\Steps\Glass" GUID="{8C17452C-6E55-4A63-8941-EB3BD7A3C95C}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
