@@ -195,7 +195,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: d3e77258442f0a46b11c263508909f7f
       Path: Events\Default Work Unit\Play_music1
-      maxAttenuation: 70
+      maxAttenuation: 110
       maxDuration: -1
       minDuration: -1
     - name: Play_music2
@@ -212,7 +212,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: f743fea4343afc439ab02be5e71e5d50
       Path: Events\Default Work Unit\Play_music2
-      maxAttenuation: 70
+      maxAttenuation: 110
       maxDuration: -1
       minDuration: -1
     - name: Play_PinkRocklet
@@ -424,7 +424,7 @@ MonoBehaviour:
     m_lastTime: -8585009182689885219
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a000000120000001300000014000000180000001900000056000000570000006500000075000000760000007e0000007f000000900000009100000095000000960000009e000000
+  ExpandedWaapiItemIds: 0500000006000000070000000a00000012000000140000001900000056000000570000006500000075000000760000007e0000007f000000900000009100000095000000960000009e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

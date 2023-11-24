@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Pasillos.unity
+    guid: 7a6429c390edccd479d20c222f5234c2
   m_configObjects: {}
